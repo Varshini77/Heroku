@@ -176,6 +176,27 @@
       "password": "sita@123",
       "mobile": "",
       "id": 9
+    },
+    {
+      "username": "arinaa",
+      "useremail": "arina@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 10
+    },
+    {
+      "username": "arinaa",
+      "useremail": "arina@gmail.com",
+      "password": "",
+      "mobile": "",
+      "id": 11
+    },
+    {
+      "username": "Madhu",
+      "useremail": "madhu@gmail.com",
+      "password": "madhu@123",
+      "mobile": "",
+      "id": 12
     }
   ],
   "cart": [

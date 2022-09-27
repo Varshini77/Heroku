@@ -12,10 +12,10 @@ import { MenComponent } from './men/men.component';
 import {KidsComponent } from './kids/kids.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { LoginComponent } from './login/login.component';
-import { AuthGuard } from './auth.guard';
+
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { AmazondealsComponent } from './deals/amazondeals/amazondeals.component';
-import { DealsComponent } from './deals/deals.component';
+
 
 
 
@@ -33,7 +33,7 @@ const routes: Routes = [
   { path:'product-details', component:ProductDetailsComponent},
   { path:'login',component:LoginComponent},
   { path:'cartitems',component:CartItemsComponent},
-  {path:'deals',component:AmazondealsComponent},
+  {path:'deals',component:AmazondealsComponent}
   
   
 ];

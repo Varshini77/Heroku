@@ -48,15 +48,15 @@
       
         <form class="d-flex">
                   
-          <input type="text" #productname placeholder="Enter product name" style="border-radius:10px;">&nbsp;
+          <input type="text" #productname placeholder="Enter product name" style="border-radius:1px;">&nbsp;
    
-          <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:10px;">Search</button>
+          <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:1px;">Search</button>
          
           &nbsp;&nbsp;&nbsp;
           <app-search [product]="productentered"></app-search>
           
   
-          <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;color:black;" routerLink="login" 
+          <a class="btn btn-outline-warning" type="submit" style="border-radius:20px;color:white; background-color: black;" routerLink="login" 
           >Logout</a>
         </form>
       
