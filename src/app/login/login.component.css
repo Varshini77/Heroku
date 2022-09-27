@@ -1,38 +1,44 @@
 input {
-    width: 60%;
-    margin-left: 100px;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 2px;
+    border-color: black;
 }
 
 label {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 h4{
     margin-left: 600px;
-
 }
 
 form {
-    padding: 20px;
-    margin-left: 250px;
+    padding: 0px;
+    margin-left: 150px;
     margin-top: 40px;
     width: 40%;
     border-style: inset;
-    border-radius: 10px;
-    border-color: black;
-    box-shadow: 2px 3px 4px yellow;
+    
+    border-color:black;
+   
     align-content: center;
 }
-
 form:hover {
-    color: rgb(174, 155, 11);
-    background-color: rgb(40, 40, 40);
+    color:black;
+    background-color: transparent;
     transform:scale(1.2);
     align-items: center;
-
 }
 
 button {
-    margin-left: 150px;
+    margin-left: 80px;
+    color: wheat;
+    background-color: black;
+ 
+}
+button:hover{
+    color:black;
+    background-color: black;
 }
 
 span {
