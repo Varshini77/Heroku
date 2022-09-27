@@ -1,0 +1,8 @@
+.navbar{
+    background-color:beige;   
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color:black;
+    font-size: 20px;
+}

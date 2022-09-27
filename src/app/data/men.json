@@ -1,0 +1,44 @@
+[
+    {
+        "pid":1,
+        "pname":"Gift Classy watch",
+        "pdescription":"Available along the with extra belt",
+        "price":1750,
+        "img":"https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2422424/2018/2/6/11517923546110-Daniel-Wellington-Men-Watch-Gift-Set-7631517923545891-1.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"Exclusive Watch",
+        "pdescription":"Available along with pendent and pair of hoops",
+        "price":9550,
+        "img":"https://i.pinimg.com/736x/03/bb/50/03bb506c42979241880355bdd157e180--guess-watches-mens-watches.jpg"
+    },
+    {
+        "pid":3,
+        "pname":"Elementary Watch",
+        "pdescription":"Available along with simple braclet",
+        "price":550,
+        "img":"https://media.karousell.com/media/photos/products/2019/02/23/bnib_armani_exchange_watch_ax2103_with_local_warranty_1550894231_5addb833_progressive.jpg"
+    },
+    {
+        "pid":4,
+        "pname":"Waterproof Watch",
+        "pdescription":"simple and elegent",
+        "price":1550,
+        "img":"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2021/6/23/76789611-7463-4c79-8979-5544c664248c1624425046715-1.jpg"
+    },
+    {
+        "pid":5,
+        "pname":"Digital watch",
+        "pdescription":"simple and elegent",
+        "price":2550,
+        "img":"https://www.noonmar.com/mens-wristwatch-bracelet-and-necklace-gift-set-forentina-erkek-hediyeleri-14409-44-K.jpg"
+    },
+    {
+        "pid":9,
+        "pname":"Simple Collection",
+        "pdescription":"Available along with pearl pendent",
+        "price":1550,
+        "img":"https://m.media-amazon.com/images/I/71EKW9+TV8S._AC_UL1000_.jpg"
+    }
+]
