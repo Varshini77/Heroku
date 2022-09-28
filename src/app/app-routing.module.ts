@@ -32,7 +32,7 @@ const routes: Routes = [
   {path:'kids', component:KidsComponent},
   { path:'product-details', component:ProductDetailsComponent},
   { path:'login',component:LoginComponent},
-  { path:'cartitems',component:CartItemsComponent},
+  { path:'cartitem',component:CartItemsComponent},
   {path:'deals',component:AmazondealsComponent}
   
   

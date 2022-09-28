@@ -201,44 +201,12 @@
   ],
   "cart": [
     {
-      "pname": "Kids Frock",
-      "pdescription": "Kids dress for girls between 4 - 6 years old",
-      "price": 750,
-      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-      "quantity": 3,
-      "id": 1
-    },
-    {
-      "pname": "Kids Frock",
-      "pdescription": "Kids dress for girls between 4 - 6 years old",
-      "price": 750,
-      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-      "quantity": 4,
-      "id": 2
-    },
-    {
-      "pname": "Jabra Headphones",
-      "pdescription": "Jabra Headphones",
-      "price": 3500,
-      "img": "https://th.bing.com/th/id/OIP.6fUrfdYdaP2E2FMAwbmviQHaHa?pid=ImgDet&rs=1",
+      "pname": "Digital waterproof",
+      "pdescription": "Round screen",
+      "price": 1500,
+      "img": "https://5.imimg.com/data5/IJ/CF/MY-20993242/designer-digital-watch-500x500.jpg",
       "quantity": 1,
-      "id": 4
-    },
-    {
-      "pname": "Kids Frock",
-      "pdescription": "Kids dress for girls between 4 - 6 years old",
-      "price": 750,
-      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-      "quantity": 1,
-      "id": 5
-    },
-    {
-      "pname": "Kids Frock",
-      "pdescription": "Kids dress for girls between 4 - 6 years old",
-      "price": 750,
-      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-      "quantity": 1,
-      "id": 6
+      "id": 10
     },
     {
       "pname": "Digital watch",
@@ -246,7 +214,15 @@
       "price": 750,
       "img": "https://ae01.alicdn.com/kf/H2f873ba8c8dd47c38ecced9a9667e9d64/Sport-Digital-Watch-Women-Men-Square-LED-Watch-Silicone-Electronic-Watch-Women-s-Watches-Clock-relogio.jpg_Q90.jpg_.webp",
       "quantity": 1,
-      "id": 7
+      "id": 11
+    },
+    {
+      "pname": "Digital waterproof",
+      "pdescription": "Round screen",
+      "price": 1500,
+      "img": "https://5.imimg.com/data5/IJ/CF/MY-20993242/designer-digital-watch-500x500.jpg",
+      "quantity": 1,
+      "id": 12
     }
   ]
 }

@@ -11,7 +11,7 @@ import Swal from 'sweetalert2';
   styleUrls: ['./cart-items.component.css']
 })
 export class CartItemsComponent implements OnInit {
-  quanties: number = 0;
+  
 
   constructor(private cartSvc: CartService, private router:Router) { }
   //Cart List
@@ -30,20 +30,20 @@ export class CartItemsComponent implements OnInit {
   quantity = 1;
   //@Input() count?:number;
 
-  receivequantity($event: number) {
-    this.quantity = $event;
-  }
-  totalPrices(data: any) {
-    debugger
-    this.totalprice = 0;
-    this.cartData = data
-    console.log(this.cartData);
-    for (let j = 0; j < data.length; j++) {
-      this.totalprice += (this.cartData[j].price + this.cartData[j].quantity)
-      console.log(this.cartData[j].quantity)
-    }
-    return this.totalprice;
-  }
+  // receivequantity($event: number) {
+  //   this.quantity = $event;
+  // }
+  // totalPrices(data: any) {
+  //   debugger
+  //   this.totalprice = 0;
+  //   this.cartData = data
+  //   console.log(this.cartData);
+  //   for (let j = 0; j < data.length; j++) {
+  //     this.totalprice += (this.cartData[j].price + this.cartData[j].quantity)
+  //     console.log(this.cartData[j].quantity)
+  //   }
+  //   return this.totalprice;
+  // }
   totalPrice(data: any) {
     debugger
     const intialValue = 0;
@@ -52,16 +52,16 @@ export class CartItemsComponent implements OnInit {
     return a;
   }
   cart: Cartitem[] = [];
-  updateToCart(cart: Cartitem) {
-    console.log(this.quantity)
-    this.carts.pid = cart.pid;
-    this.carts.totalPrice=(cart.price * this.quantity);
-    this.carts.quantity = this.quantity;
-    this.cartSvc.updateCart(this.cart).subscribe(
-      () => console.log("update successfully")
-    )
-    this.ngOnInit();
-  }
+  // updateToCart(cart: Cartitem) {
+  //   console.log(this.quantity)
+  //   this.carts.pid = cart.pid;
+  //   this.carts.totalPrice=(cart.price * this.quantity);
+  //   this.carts.quantity = this.quantity;
+  //   this.cartSvc.updateCart(this.cart).subscribe(
+  //     () => console.log("update successfully")
+  //   )
+  //   this.();
+  // }ngOnInit
   delete(deleteItem: Cartitem) {
     this.cartSvc.removeItemFromCart(deleteItem).subscribe(
       () => console.log(deleteItem.pname)      
@@ -81,7 +81,7 @@ export class CartItemsComponent implements OnInit {
     this.ngOnInit();
   }
   onClick(){
-    this.router.navigate([''])
+    this.router.navigate(['deals'])
   }
   ngOnInit(): void {
     this.cartSvc.getCartItems().subscribe(

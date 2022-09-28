@@ -2,16 +2,21 @@ img{
     height:150px;
     width:150px;
     margin-left:20px;
-    margin-top:10px;
+    margin-top:20px;
     margin-bottom:10px;
     border-radius:10px;
+    align-content: center;
 }
 .prodimg{
     height:200px;
-    width:200px;
+    width:800px;
     margin-left:40px;
     margin-top:10px;
     margin-bottom:10px;
     border-radius:10px;
+    align-content: center;
 
+}
+card{
+    align-content: center;
 }
